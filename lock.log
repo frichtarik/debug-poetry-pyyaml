@@ -1,0 +1,44 @@
+@ -0,0 +1,43 @@
+Using virtualenv: /Users/filiprichtarik/repos/github/vertice-test-suites-python/.venv
+Updating dependencies
+Resolving dependencies...
+   1: fact: your-project-name is 0.1.0
+   1: derived: your-project-name
+   1: fact: your-project-name depends on PyYAML (^6.0)
+   1: fact: your-project-name depends on pytest (^7.0)
+   1: selecting your-project-name (0.1.0)
+   1: derived: pytest (>=7.0,<8.0)
+   1: derived: PyYAML (>=6.0,<7.0)
+Checking if keyring is available
+[keyring:keyring.backend] Loading KWallet
+[keyring:keyring.backend] Loading SecretService
+[keyring:keyring.backend] Loading Windows
+[keyring:keyring.backend] Loading chainer
+[keyring:keyring.backend] Loading libsecret
+[keyring:keyring.backend] Loading macOS
+Using keyring backend 'macOS Keyring'
+Creating new session for pypi.org
+Source (PyPI): 17 packages found for pytest >=7.0,<8.0
+Source (PyPI): 3 packages found for pyyaml >=6.0,<7.0
+   1: fact: pytest (7.4.4) depends on iniconfig (*)
+   1: fact: pytest (7.4.4) depends on packaging (*)
+   1: fact: pytest (7.4.4) depends on pluggy (>=0.12,<2.0)
+   1: fact: pytest (7.4.4) depends on colorama (*)
+   1: selecting pytest (7.4.4)
+   1: derived: colorama
+   1: derived: pluggy (>=0.12,<2.0)
+   1: derived: packaging
+   1: derived: iniconfig
+Source (PyPI): 43 packages found for colorama *
+Source (PyPI): 8 packages found for pluggy >=0.12,<2.0
+Source (PyPI): 44 packages found for packaging *
+Source (PyPI): 6 packages found for iniconfig *
+   1: selecting packaging (24.1)
+   1: selecting pluggy (1.5.0)
+   1: selecting iniconfig (2.0.0)
+   1: selecting pyyaml (6.0.2)
+   1: selecting colorama (0.4.6)
+   1: Version solving took 0.055 seconds.
+   1: Tried 1 solutions.
+
+Writing lock file
